@@ -21,26 +21,26 @@ pip install torch torchvision matplotlib numpy seaborn scikit-learn
 ```
 
 Use Google Colab or local setup with GPU if possible.
-Model Building
+## Model Building
 
 Open and run cnn.ipynb notebook.
 
 Update the dataset path as needed.
-Training
+## Training
 
 The notebook loads images, applies data augmentation, normalizes inputs.
 
 Trains a custom CNN on the training dataset.
 
 Tracks and prints epoch-wise loss and accuracy.
-Evaluation
+## Evaluation
 
 Evaluates model on the test dataset.
 
 Displays confusion matrix and class-wise performance.
 
 Plots loss and accuracy curves.
-Algorithm
+## Algorithm
 
 Data Augmentation & Loading
 
@@ -77,12 +77,12 @@ After each epoch or at the end, run model on test data
 Calculate test loss, accuracy
 
 Generate confusion matrix
-Visualization
+## Visualization
 
 Plot loss and accuracy curves using matplotlib
 
 Display confusion matrix with seaborn heatmap
-Output
+## Output
 
 Training and Validation Accuracy/Loss: Printed per epoch.
 
@@ -92,8 +92,9 @@ Training/Validation loss vs. epochs
 
 Training/Validation accuracy vs. epochs
 
-Confusion Matrix: Visual class performance on test data. Screenshot 2025-07-28 132605
-Sample Output:
+Confusion Matrix: Visual class performance on test data.
+Screenshot 2025-07-28 132605
+## Sample Output:
 
 Final test accuracy (e.g., ≈86% on sample dataset, may vary)
 
